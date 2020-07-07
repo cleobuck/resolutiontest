@@ -7,3 +7,9 @@ img {
 p {
   font-size: 2em;
 }
+
+@media (min-resolution: 125dpi) {
+  p {
+    background: red;
+  }
+}
