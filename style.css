@@ -8,8 +8,9 @@ p {
   font-size: 2em;
 }
 
-@media (min-resolution: 125dpi) {
+@media screen and (min-width: 1400px) {
   p {
+    font-size: 1.8rem;
     background: red;
   }
 }
